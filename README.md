@@ -1,5 +1,3 @@
-Here's a README file summarizing the steps and methodology for the dialog act detection task:
-
 ---
 
 # Dialog Act Detection
@@ -51,11 +49,25 @@ The task of slot and value detection is framed as a BIO tagging problem. Once th
 - **BIO Tag Identification**:
     - Using the positions of B and I tags, the slots and values in the sentence are identified.
 
+## Directory Structure
+
+- **DataProcessed**: Contains processed data files used for training and evaluation.
+- **PreprocessData**: Contains scripts for data preprocessing.
+- **Model**: Contains code for building and training the models.
+- **FinalResult.ipynb**: Notebook combining the results of the two models discussed above.
+
+## Training
+
+The model training process was conducted on Kaggle to leverage their computational resources.
+
 ## Evaluation Metrics
 
 The performance of the models is evaluated using accuracy, precision, recall, and F1-score metrics.
 
-## Results
+## Conclusion
+
 The models perform well overall, particularly for labels with a large number of samples. However, improvements can be made for labels with fewer samples by collecting more data and applying data balancing techniques.
 
 ---
+
+This README file provides a comprehensive overview of the project, including dataset preparation, methodology, directory structure, training, and evaluation metrics.
