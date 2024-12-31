@@ -1,5 +1,3 @@
----
-
 # Dialog Act Detection
 
 This project focuses on the task of dialog act detection using the MultiWOZ 2.2 dataset. The dataset has been split into three directories: dev, test, and train, and these are used directly for training, validation, and testing without further splitting.
